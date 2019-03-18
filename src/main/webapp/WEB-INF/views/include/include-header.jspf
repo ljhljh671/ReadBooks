@@ -1,0 +1,19 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+	<link rel="stylesheet" 
+	href=<c:url value="/css/book.css" /> > 
+   
+
+
+	<header>
+		<h2>독서록</h2>
+	</header>
+	
+	<nav>
+		<a href= "/books/">HOME</a>
+		<a href="write">WRITE</a>
+	</nav>
+	
+	
+	
